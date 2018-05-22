@@ -1,5 +1,3 @@
-package com.company;
-
 public class Person {
 
   private String name;
@@ -22,7 +20,7 @@ public class Person {
   }
 
   public void run() {
-    System.out.println(this.name + "is running!");
+    System.out.println(this.name + " is running!");
   }
 
 }
