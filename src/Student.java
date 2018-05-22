@@ -10,4 +10,7 @@ public class Student extends Person {
     this.score = score;
   }
 
+  public void printScore() {
+    System.out.println(this.getName() + "'s score is " + this.getScore());
+  }
 }
