@@ -1,13 +1,15 @@
+package com.shx;
+
 public class Person {
 
   private String name;
   private int age;
 
-  public String getName() {
+  String getName() {
     return this.name;
   }
 
-  public void setName(String name) {
+  void setName(String name) {
     this.name = name;
   }
 
@@ -19,7 +21,7 @@ public class Person {
     this.age = age;
   }
 
-  public void run() {
+  void run() {
     System.out.println(this.name + " is running!");
   }
 

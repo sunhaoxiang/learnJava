@@ -1,16 +1,18 @@
-public class Student extends Person {
+package com.shx;
+
+class Student extends Person {
 
   private int score;
 
-  public int getScore() {
+  private int getScore() {
     return this.score;
   }
 
-  public void setScore(int score) {
+  void setScore(int score) {
     this.score = score;
   }
 
-  public void printScore() {
+  void printScore() {
     System.out.println(this.getName() + "'s score is " + this.getScore());
   }
 }
