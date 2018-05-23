@@ -5,15 +5,15 @@ public class Person {
   private String name;
   private int age;
 
-  Person(String name){
+  public Person(String name){
     this.name = name;
   }
 
-  String getName() {
+  public String getName() {
     return name;
   }
 
-  void setName(String name) {
+  public void setName(String name) {
     this.name = name;
   }
 
@@ -25,11 +25,11 @@ public class Person {
     this.age = age;
   }
 
-  String hello() {
+  public String hello() {
     return "Hello, " + name;
   }
 
-  void run() {
+  public void run() {
     System.out.println("Student " + name + " is running!");
   }
 
