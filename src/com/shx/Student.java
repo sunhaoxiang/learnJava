@@ -13,7 +13,7 @@ class Student extends Person {
   }
 
   void printScore() {
-    System.out.println(this.getName() + "'s score is " + this.score);
+    System.out.println(this.getName() + "'s score is " + score);
   }
 
   @Override

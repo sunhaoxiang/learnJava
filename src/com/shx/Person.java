@@ -10,7 +10,7 @@ public class Person {
   }
 
   String getName() {
-    return this.name;
+    return name;
   }
 
   void setName(String name) {
@@ -18,7 +18,7 @@ public class Person {
   }
 
   public int getAge() {
-    return this.age;
+    return age;
   }
 
   public void setAge(int age) {
@@ -26,11 +26,11 @@ public class Person {
   }
 
   String hello() {
-    return "Hello, " + this.name;
+    return "Hello, " + name;
   }
 
   void run() {
-    System.out.println("Student " + this.name + " is running!");
+    System.out.println("Student " + name + " is running!");
   }
 
 }
