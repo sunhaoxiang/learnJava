@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b7750ab-e7d0-488e-8465-1376c638f5d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/shx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shx/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shx/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shx/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shx/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shx/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="7b7750ab-e7d0-488e-8465-1376c638f5d6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shx/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="411">
               <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
@@ -67,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shx/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="196">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -96,8 +92,8 @@
         <option value="$PROJECT_DIR$/src/Student.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/shx/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/shx/Main.java" />
         <option value="$PROJECT_DIR$/src/com/shx/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/shx/Main.java" />
       </list>
     </option>
   </component>
@@ -110,7 +106,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1525" />
     <option name="y" value="23" />
     <option name="width" value="799" />
     <option name="height" value="877" />
@@ -192,15 +189,15 @@
       <option name="presentableId" value="Default" />
       <updated>1526979044122</updated>
       <workItem from="1526979047180" duration="1893000" />
-      <workItem from="1526983464385" duration="4433000" />
+      <workItem from="1526983464385" duration="4779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6326000" />
+    <option name="totallyTimeSpent" value="6672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="799" height="877" extended-state="0" />
+    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -212,7 +209,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40706807" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32944915" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32984293" />
       <window_info id="Capture Tool" order="2" />
@@ -299,13 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shx/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -329,7 +319,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shx/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state relative-caret-position="411">
           <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="29" selection-end-column="3" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
@@ -347,6 +337,13 @@
             <element signature="e#359#360#0" expanded="true" />
             <element signature="e#427#428#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shx/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
