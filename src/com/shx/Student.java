@@ -4,15 +4,15 @@ class Student extends Person {
 
   private int score;
 
-  public Student(String name){
+  Student(String name){
     super(name);
   }
 
-  public void setScore(int score) {
+  void setScore(int score) {
     this.score = score;
   }
 
-  public void printScore() {
+  void printScore() {
     System.out.println(this.getName() + "'s score is " + score);
   }
 

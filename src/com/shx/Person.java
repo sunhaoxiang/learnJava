@@ -4,16 +4,17 @@ public abstract class Person {
 
   private String name;
   private int age;
+  public static int num;
 
   public Person(String name){
     this.name = name;
   }
 
-  public String getName() {
+  String getName() {
     return name;
   }
 
-  public void setName(String name) {
+  void setName(String name) {
     this.name = name;
   }
 
@@ -30,5 +31,10 @@ public abstract class Person {
   }
 
   public abstract void run();
+
+  static void getNumber(int a) {
+    num = a;
+    System.out.println("Number is " + num);
+  }
 
 }

@@ -9,6 +9,7 @@ public class Main {
     s.run();
     s.printScore();
     System.out.println(s.hello());
+    Person.getNumber(3);
   }
 
 }
