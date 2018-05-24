@@ -1,6 +1,6 @@
 package com.shx;
 
-public class Person {
+public abstract class Person {
 
   private String name;
   private int age;
@@ -29,8 +29,6 @@ public class Person {
     return "Hello, " + name;
   }
 
-  public void run() {
-    System.out.println("Student " + name + " is running!");
-  }
+  public abstract void run();
 
 }

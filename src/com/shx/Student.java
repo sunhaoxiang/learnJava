@@ -16,10 +16,12 @@ class Student extends Person {
     System.out.println(this.getName() + "'s score is " + score);
   }
 
+  @Override
   public void run() {
     System.out.println("Student " + this.getName() + " is running!");
   }
 
+  @Override
   public String hello() {
     return super.hello() + '!';
   }
