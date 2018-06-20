@@ -12,8 +12,10 @@ public class Main {
 //        System.out.println(maxValue + 1); // 数据溢出
 //        System.out.println(minValue - 1); // 数据溢出
 //        System.out.println(result); // 不溢出
+
         ArrayDemo demo = new ArrayDemo();
-        demo.log();
+        demo.inc();
+        demo.printArray();
     }
 
 }
