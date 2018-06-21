@@ -1,7 +1,19 @@
 package com.shx;
 
 public class ArrayDemo {
-    int data[] = new int[] {1, 2, 3, 4, 5};
+    int data[] = new int[] {3, 1, 2, 5, 4};
+
+    public int findMax() {
+        int maxIndex = 0;
+
+        for (int i = 1; i < data.length; i++) {
+            if (data[i] > data[maxIndex]) {
+                maxIndex = i;
+            }
+        }
+
+        return data[maxIndex];
+    }
 
     public void printArray() {
         for (int i = 0; i < data.length; i++) {
@@ -13,5 +25,9 @@ public class ArrayDemo {
         for (int i = 0; i < data.length; i++) {
             data[i] *= 2;
         }
+    }
+
+    public void sort(){
+        java.util.Arrays.sort(data);
     }
 }

@@ -14,8 +14,10 @@ public class Main {
 //        System.out.println(result); // 不溢出
 
         ArrayDemo demo = new ArrayDemo();
-        demo.inc();
+        demo.sort();
+//        demo.inc();
         demo.printArray();
+        System.out.println(demo.findMax());
     }
 
 }
