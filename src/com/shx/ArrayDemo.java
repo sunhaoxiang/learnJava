@@ -1,7 +1,7 @@
 package com.shx;
 
 public class ArrayDemo {
-    int data[] = new int[] {3, 1, 2, 5, 4};
+    int[] data = {3, 1, 2, 5, 4};
 
     public int findMax() {
         int maxIndex = 0;
