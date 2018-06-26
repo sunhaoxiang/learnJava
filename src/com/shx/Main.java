@@ -13,11 +13,15 @@ public class Main {
 //        System.out.println(minValue - 1); // 数据溢出
 //        System.out.println(result); // 不溢出
 
-        ArrayDemo demo = new ArrayDemo();
-        demo.sort();
+//        ArrayDemo demo = new ArrayDemo();
+//        demo.sort();
 //        demo.inc();
-        demo.printArray();
-        System.out.println(demo.findMax());
+//        demo.printArray();
+//        System.out.println(demo.findMax());
+
+        Cat one = new Cat();
+        one.run();
+        one.eat();
     }
 
 }

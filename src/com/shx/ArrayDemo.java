@@ -16,8 +16,12 @@ public class ArrayDemo {
     }
 
     public void printArray() {
-        for (int i = 0; i < data.length; i++) {
-            System.out.println(data[i]);
+//        for (int i = 0; i < data.length; i++) {
+//            System.out.println(data[i]);
+//        }
+
+        for (int i: data) {
+            System.out.println(i);
         }
     }
 
