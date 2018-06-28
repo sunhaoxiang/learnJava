@@ -40,4 +40,14 @@ public class Subject {
         }
         this.subjectLife = subjectLife;
     }
+
+    /**
+     *
+     * @return 专业相关信息
+     */
+    public String info() {
+        String str = "专业信息如下： \n专业名称：" + this.getSubjectName() + "\n专业编号：" + this.getSubjectNo() + "\n学制年限：" + this.getSubjectLife() + "年";
+
+        return str;
+    }
 }
