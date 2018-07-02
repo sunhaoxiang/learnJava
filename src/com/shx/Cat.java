@@ -3,26 +3,17 @@ package com.shx;
 /**
  * cat类
  */
-public class Cat {
-    String name;
-    int month;
-    double weight;
-    String species;
+public class Cat extends Animal {
+    private double weight;
 
-    public Cat() {}
+    public Cat() {
+    }
 
-    public Cat(String name, int month, double weight, String species) {
-        this.name = name;
-        this.month = month;
+    public Cat(double weight) {
         this.weight = weight;
-        this.species = species;
     }
 
     public void run() {
-        System.out.println("Cat run.");
-    }
-
-    public void eat() {
-        System.out.println("Cat eat.");
+        System.out.println(this.getName() + "是一只" + this.getSpecies() + ",它在奔跑");
     }
 }
