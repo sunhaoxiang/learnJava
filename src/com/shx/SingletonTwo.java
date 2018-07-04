@@ -1,6 +1,6 @@
 package com.shx;
 
-// 类内实例对象创建时并不直接初始化，直到第一次调用get方法时，才完成初始化操作，时间换空间
+// 类内实例对象创建时并不直接初始化，直到第一次调用get方法时，才完成初始化操作，时间换空间，存在线程风险
 public class SingletonTwo {
     // 1.创建私有构造方法
     private SingletonTwo() {
